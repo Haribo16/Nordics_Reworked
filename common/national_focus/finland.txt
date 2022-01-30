@@ -15,7 +15,7 @@
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = AST_the_threat_against_the_people
+		id = continue_industrialing
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = AST_workers_paradise }
 		x = 3
