@@ -17,11 +17,18 @@
 	focus = {
 		id = continue_industrialing
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = AST_workers_paradise }
 		x = 3
 		y = 5
 		relative_position_id = AST_empower_the_workers
-
+		
+		available = {
+			NOT = { is_in_faction_with = JAP }
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+		}
+			bypass = {
+		}
+		
+		prerequisite = { focus = AST_workers_paradise }
 		cost = 10
 
 		ai_will_do = {
@@ -32,14 +39,6 @@
 			}
 		}
 
-		available = {
-			NOT = { is_in_faction_with = JAP }
-			NOT = { has_country_flag = britain_enforced_our_loyalty }
-		}
-		
-		bypass = {
-
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
