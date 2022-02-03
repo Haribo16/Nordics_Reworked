@@ -15,7 +15,7 @@
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = continue_industrialing
+		id = promote_further_industrialization
 		icon = GFX_goal_generic_major_war
 		x = 3
 		y = 5
