@@ -21,10 +21,7 @@
 		y = 5
         relative_position_id = AST_empower_the_workers
 
-	available = {
-			NOT = { is_in_faction_with = JAP }
-			NOT = { has_country_flag = britain_enforced_our_loyalty }
-		}
+
 		bypass = {
 		}
 
