@@ -19,13 +19,10 @@
 		icon = GFX_goal_generic_major_war
 		x = 3
 		y = 5
-        relative_position_id = AST_empower_the_workers
-
 
 		bypass = {
 		}
 
-		prerequisite = { focus = AST_workers_paradise }
 		cost = 10
 
 		cancel_if_invalid = yes
