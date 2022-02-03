@@ -12,7 +12,7 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 150 y = 2500 }
 
 	focus = {
 		id = promote_further_industrialization
