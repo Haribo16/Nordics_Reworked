@@ -27,18 +27,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			create_wargoal = {  
-				target = JAP
-				type = puppet_wargoal_focus
-				expire = 0 
-			}
+			
 		} 
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				JAP = { has_government = communism }
-				factor = 0
-			}
+		
 		}
 	}
 }		
