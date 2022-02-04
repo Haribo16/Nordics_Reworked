@@ -68,6 +68,7 @@ focus_tree = {
 		x = 3
 		y = 6
 
+ prerequisite = { promote_further_industrialization }
 		cost = 10
 
 		cancel_if_invalid = yes
