@@ -63,7 +63,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = test_focus
+		id = encourage_the_timber_industry
 		icon = GFX_goal_generic_major_war
 		x = 3
 		y = 6
