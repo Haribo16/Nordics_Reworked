@@ -19,10 +19,18 @@
 		icon = GFX_goal_generic_major_war
 		x = 3
 		y = 5
+<<<<<<< HEAD
 
 		bypass = {
 		}
 
+=======
+
+
+		bypass = {
+		}
+		
+>>>>>>> 1f773a0cc45331b4e83e7e59a4aad9033db575f0
 		cost = 10
 
 		cancel_if_invalid = yes
