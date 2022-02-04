@@ -69,8 +69,8 @@ focus_tree = {
 		y = 3
         relative_position_id = promote_further_industrialization
 
- prerequisite = { promote_further_industrialization }
-	cost = 10
+        prerequisite = { promote_further_industrialization }
+	    cost = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
