@@ -65,8 +65,8 @@ focus_tree = {
 	focus = {
 		id = encourage_the_timber_industry
 		icon = GFX_goal_generic_major_war
-		x = 2
-		y = 3
+		x = 1
+		y = 1
         relative_position_id = promote_further_industrialization
 
         prerequisite = { promote_further_industrialization }
