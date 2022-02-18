@@ -115,7 +115,7 @@ focus_tree = {
 		focus = {
 		id = improve_infrastructure
 		icon = GFX_goal_generic_major_war
-		x = 1
+		x = -3
 		y = 1
         relative_position_id = promote_further_industrialization
 
