@@ -123,6 +123,28 @@ focus_tree = {
 
         prerequisite = { focus = promote_further_industrialization }
 	    cost = 10
+
+
+		focus = {
+		id = focus_on_civilian_industry
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 2
+        relative_position_id = encourage_the_timber_industry
+
+        prerequisite = { encourage_the_timber_industry }
+	    cost = 10
+
+		focus = {
+		id = focus_on_militarysation
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 3
+        relative_position_id = encourage_the_timber_industry
+
+        cost = 10
+        prerequisite = { focus = encourage_the_timber_industry }
+	    mutually_exclusive = { focus = focus_on_civilian_industry }
 		}
 	}
 }		
