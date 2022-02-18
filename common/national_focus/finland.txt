@@ -105,13 +105,15 @@ focus_tree = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
+
+		} 
+		ai_will_do = {
+		}
 				}
 			}
 		} 	
 		
-		} 
-		ai_will_do = {
-		}
+		
 		focus = {
 		id = improve_infrastructure
 		icon = GFX_goal_generic_major_war
