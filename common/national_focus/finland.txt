@@ -136,12 +136,6 @@ focus_tree = {
 		mutually_exclusive = { focus = focus_on_militarysation }
 	    cost = 10
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-
-
 		focus = {
 		id = focus_on_militarysation
 		icon = GFX_goal_generic_major_war
@@ -153,9 +147,6 @@ focus_tree = {
         prerequisite = { focus = encourage_the_timber_industry }
 	    mutually_exclusive = { focus = focus_on_civilian_industry }
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		}
 	}
 }		
