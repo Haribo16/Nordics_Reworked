@@ -120,8 +120,8 @@ focus_tree = {
 	focus = {
 		id = focus_on_civilian_industry
 		icon = GFX_goal_generic_major_war
-		x = 4
-		y = 2
+		x = 3
+		y = 1
 		relative_position_id = encourage_the_timber_industry
 		prerequisite = { encourage_the_timber_industry }
 		mutually_exclusive = { focus = focus_on_militarysation }
