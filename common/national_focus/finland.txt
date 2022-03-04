@@ -124,6 +124,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = encourage_the_timber_industry
 		prerequisite = { encourage_the_timber_industry }
+
 		mutually_exclusive = { focus = focus_on_militarysation }
 		cost = 10
 		cancel_if_invalid = yes
