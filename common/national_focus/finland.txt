@@ -120,20 +120,16 @@ focus_tree = {
 	focus = {
 		id = focus_on_civilian_industry
 		icon = GFX_goal_generic_major_war
-		x = 2
-		y = 1
+		x = 3
+		y = 2
 		relative_position_id = encourage_the_timber_industry
-		prerequisite = { encourage_the_timber_industry }
-
-		mutually_exclusive = { focus = focus_on_militarisation }
-		cost = 10
+	    cost = 10
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-			}
-		}
-		ai_will_do = {
-			factor = 1
+		prerequisite = { focus = encourage_the_timber_industry }
+
+		mutually_exclusive = { focus = focus_on_militarisation }
 		}
 	}
 	
@@ -142,13 +138,14 @@ focus_tree = {
 		id = focus_on_militarisation
 		icon = GFX_goal_generic_major_war
 		x = 4
-		y = 3
+		y = 2
 		relative_position_id = encourage_the_timber_industry
 		cost = 10
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		prerequisite = { focus = encourage_the_timber_industry }
+		
 		mutually_exclusive = { focus = focus_on_civilian_industry }
 	}
 }
