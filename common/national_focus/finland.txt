@@ -118,7 +118,7 @@ focus_tree = {
 	}
 		
 	focus = {
-		id = focus_on_civilian_industry
+		id =  focus_on_civilian_industry
 		icon = GFX_goal_generic_major_war
 		x = 3
 		y = 2
@@ -137,7 +137,7 @@ focus_tree = {
 	focus = {
 		id = focus_on_militarisation
 		icon = GFX_goal_generic_major_war
-		x = 4
+		x = 5
 		y = 2
 		relative_position_id = encourage_the_timber_industry
 		cost = 10
