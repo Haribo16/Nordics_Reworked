@@ -1,0 +1,42 @@
+ideas = {
+
+	country = {
+		FIN_communism_banned = {
+			picture = 
+			
+			allowed = {
+				tag = FIN
+			}
+			
+			available = {
+			}
+			
+			cancel ={
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = 1
+				guarantee_tension = 1
+				justify_war_goal_time = 1
+				lend_lease_tension = 1
+				
+			}
+		}
+	}
+
+
+	idea_categories = {
+    	$category = {
+        	slot = $slot
+        	cost = 30
+        	removal_cost = 10
+        	ledger = hidden
+   		}
+	}
+}
