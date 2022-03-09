@@ -300,7 +300,7 @@ focus = {
 }
 
 focus = {
-		id = improve_infrastructure_banaana
+		id = improve_infrastructure_c
 		icon = GFX_goal_generic_major_war
 		x = 2
 		y = 4
