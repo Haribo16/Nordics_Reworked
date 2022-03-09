@@ -1,0 +1,16 @@
+state={
+	id=836
+	name="STATE_836"
+	manpower=100
+	state_category = town
+	history = {
+	owner = FIN
+		add_core_of = FIN
+	
+	}
+	provinces={
+		32 169 3009 3083 3117 6066 9094 9194 11172 13101 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
