@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		FIN_communism_banned = {
-			picture = 
+			picture = GFX_idea_ger_bulwark_against_bolshevism
 			
 			allowed = {
 				tag = FIN
@@ -21,22 +21,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				join_faction_tension = 1
-				guarantee_tension = 1
-				justify_war_goal_time = 1
-				lend_lease_tension = 1
-				
+				communism_drift = -0.03
 			}
 		}
-	}
-
-
-	idea_categories = {
-    	$category = {
-        	slot = $slot
-        	cost = 30
-        	removal_cost = 10
-        	ledger = hidden
-   		}
 	}
 }
