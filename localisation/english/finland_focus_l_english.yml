@@ -5,13 +5,13 @@
  promote_further_industrialization_desc:0 "We must industrialize to protect our Country"
  encourage_the_timber_industry:0 "Encourage the Timber Industry"
  encourage_the_timber_industry_desc:0 "We must expand the Timber industry"
- #civ_indusrty#
- focus_on_civilian_industry:0 ""
+ #Civilian Industry#
+ focus_on_civilian_industry:0 "Focus on Civilian Industry"
  focus_on_civilian_industry_desc:0 ""
- #military-indusry#
- focus_on_militarisation:0 ""
- focus_on_militarisation_desc:0 ""
+ #Military Industry#
+ focus_on_militarisation:0 "Focus on militarisation"
+ focus_on_militarisation_desc:0 "tonk"
 
- #infastructure#
+ #Infrastructure#
  improve_infrastructure:0 "Improve Infrastructure"
- improve_infrastructure_desc:0 ""
+ improve_infrastructure_desc:0 "bonk"
