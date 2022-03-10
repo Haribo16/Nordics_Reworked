@@ -1,0 +1,17 @@
+state={
+	id=839
+	state_category = large_city
+	history = {
+		owner=DEN
+		add_core_of = DEN
+		add_claim_by = GER
+	
+	}
+	name="STATE_840"
+	provinces={
+		332 11251 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

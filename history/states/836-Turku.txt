@@ -7,6 +7,14 @@ state={
 	owner = FIN
 		add_core_of = FIN
 	
+	
+	buildings = {
+	3083 = {
+		naval_base = 3
+		coastal_bunker = 1
+
+		}
+	}
 	}
 	provinces={
 		32 169 3009 3083 3117 6066 9094 9194 11172 13101 
