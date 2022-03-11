@@ -112,7 +112,7 @@ focus_tree = {
 
 	focus = {
 		id = improve_infrastructure
-		icon = GFX_goal_generic_constuct_infastructure
+		icon = GFX_goal_generic_construct_infrastructure
 		x = -3
 		y = 1
 		relative_position_id = promote_further_industrialization
@@ -150,6 +150,8 @@ focus_tree = {
                     instant_build = yes
 				}
 			}
+		}
+	}	
 
 	focus = {
 		id = improve_infrastructure_2 #infrastructure2#
@@ -194,12 +196,13 @@ focus_tree = {
                     instant_build = yes
 					}
 				}
-
+			}
+		}
     focus = {
 		id = focus_on_mils #mil#
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 20
-		y = 20
+		x = 3
+		y = 1
 		relative_position_id = encourage_the_timber_industry
 		cost = 10
 		cancel_if_invalid = yes
@@ -239,15 +242,14 @@ focus_tree = {
                     instant_build = yes
 					}
 				}
-		ai_will_do = {
+			}
 		}
-	}
  
     focus = {
 		id = focus_on_civs #civs#
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 4
-		y = 3
+		x = 1
+		y = 1
 		relative_position_id = encourage_the_timber_industry
 		cost = 10
 		cancel_if_invalid = yes
@@ -288,7 +290,5 @@ focus_tree = {
 				}
 			}
 		} 
-		ai_will_do = {
-
-			
-	}	
+	}
+}
