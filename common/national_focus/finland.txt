@@ -287,8 +287,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		} 
-		ai_will_do = {
-
-			
+		}		
 	}	
+}
