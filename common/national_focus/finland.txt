@@ -393,12 +393,11 @@ focus_tree = {
 		y = 3
 		relative_position_id = focus_on_civs_2
 		cost = 10
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
 		prerequisite = { focus = focus_on_civs_2 }
+
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
