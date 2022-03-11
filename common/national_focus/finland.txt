@@ -64,7 +64,7 @@ focus_tree = {
 	focus = {
 		id = encourage_the_timber_industry
 		icon = GFX_goal_generic_major_war
-		x = 2
+		x = 1
 		y = 1
         relative_position_id = promote_further_industrialization
         prerequisite = { focus = promote_further_industrialization }
@@ -246,15 +246,15 @@ focus_tree = {
     focus = {
 		id = focus_on_civs #civs#
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 10
-		y = 4
+		x = 4
+		y = 3
 		relative_position_id = encourage_the_timber_industry
 		cost = 10
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		prerequisite = { focus = encourage_the_timber_industry }
 
+		prerequisite = { focus = encourage_the_timber_industry }
 		mutually_exclusive = { focus = focus_on_mils }
 		completion_reward = {
 			random_owned_controlled_state = {
