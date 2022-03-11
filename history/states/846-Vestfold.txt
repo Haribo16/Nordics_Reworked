@@ -1,0 +1,19 @@
+state={
+	id=846
+	name="STATE_846"
+	
+	manpower=251.084 
+	
+	state_category = town
+	
+	history = {
+	owner = NOR
+	add_core_of = NOR
+	
+	}
+	provinces={
+		14 9174 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=843
+	name="STATE_843"
+	
+	manpower=197.406
+	
+	state_category = rural 
+	
+	history = {
+	owner = NOR
+	add_core_of = NOR
+	
+	}
+	provinces={
+		10 111 133 179 3105 3136 6042 6160 11113 11206 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
