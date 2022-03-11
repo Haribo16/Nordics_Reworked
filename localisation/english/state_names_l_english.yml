@@ -838,7 +838,7 @@
  STATE_837:0 "Mikkeli"
  STATE_838:0 "Hame"
  STATE_839:0 "South Jutland"
- STATE_840:2 "Kymi"
+ STATE_840:0 "Kymi"
  STATE_841:0 "Akershus"
  STATE_842:0 "Oslo"
  STATE_843:0 "Hedmark"
