@@ -1,0 +1,19 @@
+state={
+	id=859
+	name="STATE_859"
+	manpower=634.293
+	
+	state_category = large_city 
+	
+	history = {
+	owner = SWE
+		add_core_of = SWE
+	
+	}
+	
+	provinces={
+		114 3106 6084 6164 6188 9209 11044 11197 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
