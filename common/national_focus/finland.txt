@@ -294,7 +294,7 @@ focus_tree = {
 	}
 
 	    focus = {
-		id = focus_on_civs_2 #civs#
+		id = focus_on_civs_2 #civs2#
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
@@ -338,13 +338,12 @@ focus_tree = {
 			}
 		} 
 	}
-}
 
     focus = {
 		id = focus_on_mils_b #mil1#
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 3
-		y = 2
+		x = 0
+		y = 1
 		relative_position_id = focus_on_mils
 		cost = 10
 		cancel_if_invalid = yes
@@ -389,12 +388,12 @@ focus_tree = {
 }
 
 	focus = {
-		id = improve_infrastructure_3 #infrastructure3#
+		id = improve_infrastructure_c #infrastructure3#
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10
-		x = 0
-		y = 5
+		x = -10
+		y = 1
 		relative_position_id = improve_infrastructure_2
+		cost = 10
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
