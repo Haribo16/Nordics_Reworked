@@ -529,7 +529,9 @@ focus_tree = {
 					}
 				}
 			}
-	}
+		} 
+    }
+
     focus = {
         id = improve_infrastructure_4 #infrastructure4#
         icon = GFX_goal_generic_construct_infrastructure
