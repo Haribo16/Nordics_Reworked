@@ -81,6 +81,11 @@ ideas = {
         sako_finland = {
             picture = sako_finland
             cost = 100
+			traits = {infantry_equipment_manufacturer}
+			research_bonus = {
+				infantry_weapons = 0.10
+				artillery = 0.10
+			}
         }
     }
 	aircraft_manufacturer = {

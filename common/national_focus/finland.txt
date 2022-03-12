@@ -659,6 +659,20 @@ focus_tree = {
             
             }
         }
+	focus = {
+		id = celebrate_finnish_independence
+		icon = GFX_invite_finland
+		x = 20
+		y = 3
+		cost = 1
+		cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+		
+		completion_reward = {
+            add_manpower = 100000
+            }
+		}
 		
 		
 		
