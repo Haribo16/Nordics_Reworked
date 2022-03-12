@@ -25,4 +25,14 @@ ideas = {
 			}
 		}
 	}
+	materiel_manufacturer = {
+
+        designer = yes
+
+        sako_finland = {
+            picture = 
+            cost = 100
+            allowed = { original_tag = FIN }
+        }
+    }
 }

@@ -68,7 +68,7 @@ focus_tree = {
 		y = 1
         relative_position_id = promote_further_industrialization
         prerequisite = { focus = promote_further_industrialization }
-	    cost = 10
+	    cost = 1
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -189,10 +189,10 @@ focus_tree = {
                         }
                     }
                 }
-                add_extra_state_shared_building_slots = 1
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = infrastructure
-                    level = 1
+                    level = 2
                     instant_build = yes
 					}
 				}
@@ -201,11 +201,11 @@ focus_tree = {
 		
     focus = {
 		id = focus_on_mils #mil#
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 3
 		y = 1
 		relative_position_id = encourage_the_timber_industry
-		cost = 10
+		cost = 1
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -248,11 +248,11 @@ focus_tree = {
  
     focus = {
 		id = focus_on_civs #civs#
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 1
 		y = 1
 		relative_position_id = encourage_the_timber_industry
-		cost = 10
+		cost = 2
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -295,11 +295,11 @@ focus_tree = {
 
 	focus = {
 		id = focus_on_civs_2 #civs2#
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = focus_on_civs
-		cost = 10
+		cost = 6
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -310,29 +310,29 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 0
+						size > 1
 						include_locked = yes
 					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -340,54 +340,31 @@ focus_tree = {
 	}
 
     focus = {
-		id = focus_on_mils_b #mil3#
-		icon = GFX_goal_generic_construct_infrastructure
+		id = focus_on_mils_2 #milf 2#
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = focus_on_mils
-		cost = 10
+		cost = 6
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		prerequisite = { focus = focus_on_mils }
 
 		completion_reward = {
-            random_owned_controlled_state = {
-                limit = {
-                    free_building_slots = {
-                        building = arms_factory
-                        size > 0
-                        include_locked = yes
-                    }
-                    OR = {
-                        is_in_home_area = yes
-                        NOT = {
-                            owner = {
-                                any_owned_state = {
-                                    free_building_slots = {
-                                        building = arms_factory
-                                        size > 0
-                                        include_locked = yes
-                                    }
-                                    is_in_home_area = yes
-                                }
-                            }
-                        }
-                    }
-                }
-                add_extra_state_shared_building_slots = 1
-                add_building_construction = {
-                    type = arms_factory
-                    level = 1
-                    instant_build = yes
-					}
+            838 = {
+			add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
 				}
 			}
 		}
+	}
 	
     focus = {
 		id = focus_on_civs_3 #civs3#
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = focus_on_civs_2
@@ -402,75 +379,105 @@ focus_tree = {
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 0
+						size > 1
 						include_locked = yes
 					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
-		} 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	    focus = {
 		id = focus_on_mils_3 #civs3#
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
-		relative_position_id = focus_on_mils_b
+		relative_position_id = focus_on_mils_2
 		cost = 10
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		prerequisite = { focus = focus_on_mils_b }
+		prerequisite = { focus = focus_on_mils_2 }
 
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
 						building = arms_factory
-						size > 0
+						size > 1
 						include_locked = yes
 					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -513,10 +520,10 @@ focus_tree = {
                         }
                     }
                 }
-                add_extra_state_shared_building_slots = 1
+                add_extra_state_shared_building_slots = 3
                 add_building_construction = {
                     type = infrastructure
-                    level = 1
+                    level = 3
                     instant_build = yes
 					}
 				}
@@ -558,16 +565,99 @@ focus_tree = {
                         }
                     }
                 }
-                add_extra_state_shared_building_slots = 1
+                add_extra_state_shared_building_slots = 4
                 add_building_construction = {
                     type = infrastructure
-                    level = 1
+                    level = 4
                     instant_build = yes
                     }
                 }
             }
         }
+	#research#
+	focus = {
+        id = research_boost_civ #research 1#
+        icon = GFX_focus_research
+        x = -1
+        y = 1
+        relative_position_id = encourage_the_timber_industry
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = { focus = encourage_the_timber_industry }
+
+        completion_reward = {
+            add_tech_bonus = {
+				bonus = 0.9
+				uses = 1
+				category = industry
+				}
+            }
+        }
 		
+	focus = {
+        id = research_boost_eqip #research 2#
+        icon = GFX_focus_research
+        x = 0
+        y = 1
+        relative_position_id = research_boost_civ
+        cost = 4
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = { focus = research_boost_civ }
+
+        completion_reward = {
+            add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = artillery
+				}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+				}
+            }
+    }
+	focus = {
+        id = research_slot_extra #research 1#
+        icon = GFX_focus_research
+        x = 0
+        y = 1
+        relative_position_id = research_boost_eqip
+        cost = 6
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = { focus = research_boost_eqip }
+
+        completion_reward = {
+            add_research_slot = 2
+            }
+        }
+	focus = {
+        id = finland_industrialized #end of Industry tree#
+        icon = GFX_focus_research
+        x = 2
+        y = 1
+        relative_position_id = research_slot_extra
+        cost = 10
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = { focus = research_slot_extra focus = focus_on_civs_3 focus = focus_on_mils_3}
+
+        completion_reward = {
+            
+            }
+        }
 		
 		
 		
