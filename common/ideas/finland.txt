@@ -83,6 +83,19 @@ ideas = {
             cost = 100
         }
     }
+	aircraft_manufacturer = {
+	
+		designer = yes
+		vl_finland ={
+		picture = vl_finland
+		cost = 100
+		traits = { light_aircraft_manufacturer }
+		research_bonus = {
+				air_equipment = 0.10
+			}
+		
+		}
+	}
 
 
 

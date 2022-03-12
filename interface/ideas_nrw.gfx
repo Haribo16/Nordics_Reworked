@@ -4,4 +4,8 @@ spriteTypes = {
 		name = "GFX_idea_sako_finland"
 		texturefile = "gfx/interface/ideas/sako_finland.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_vl_finland"
+		texturefile = "gfx/interface/ideas/vl_finland.dds"	
+	}
 }
