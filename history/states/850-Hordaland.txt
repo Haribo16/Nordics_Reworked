@@ -9,6 +9,11 @@ state={
 	history = {
 	owner = NOR
 	add_core_of = NOR
+	buildings = {
+		122 = {
+			naval_base = 3
+			}
+		}
 	
 	}
 	provinces={

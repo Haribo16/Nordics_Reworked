@@ -481,6 +481,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+		add_ideas = sako_finland
 		} 
 	}
 

@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_sako_finland"
+		texturefile = "gfx/interface/ideas/sako_finland.dds"	
+	}
+}

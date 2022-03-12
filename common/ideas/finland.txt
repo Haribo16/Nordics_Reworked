@@ -1,0 +1,104 @@
+ideas = {
+
+	country = {
+		sisu = {
+			
+			allowed = {
+				tag = FIN
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.25
+				attrition = -0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		winter_war_ns = {
+			picture = tur_sub_zero_survival_training
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			cancel = {
+				NOT = { has_war_with = SOV }
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.03
+				mobilization_speed = 0.85
+				winter_attrition_factor = -0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+	FIN_communism_banned = {
+			picture = ger_bulwark_against_bolshevism
+			
+			allowed = {
+				tag = FIN
+			}
+			
+			available = {
+			}
+			
+			cancel ={
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.03
+			}
+		}
+	}
+
+	# TECHNOLOGY
+	
+	materiel_manufacturer = {
+
+        designer = yes
+
+        sako_finland = {
+            picture = sako_finland
+            cost = 100
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}

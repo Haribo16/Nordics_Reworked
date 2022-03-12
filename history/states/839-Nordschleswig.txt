@@ -7,7 +7,7 @@ state={
 		add_claim_by = GER
 	
 	}
-	name="STATE_840"
+	name="STATE_839"
 	provinces={
 		332 11251 
 	}
