@@ -70,6 +70,25 @@ ideas = {
 				communism_drift = -0.03
 			}
 		}
+	FIN_molotov_coktail = {
+		picture = molotov_coktail_finland
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+		army_armor_defence_factor = 0.5
+		army_armor_attack_factor = 0.5
+		mechanized_attack_factor = 0.5
+		mechanized_defence_factor = 0.5
+		motorized_attack = 0.5
+		motorized_defence = 0.5
+			}
+		}
 	}
 
 	# TECHNOLOGY
@@ -119,4 +138,4 @@ ideas = {
 
 
 	
-}
+}	

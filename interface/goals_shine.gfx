@@ -1,13 +1,13 @@
 spriteTypes = {	
 
-
+	#mod#
 
 	SpriteType = {
 		name = "GFX__shine"
-		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		texturefile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
+			animationmaskfile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -20,7 +20,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
+			animationmaskfile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

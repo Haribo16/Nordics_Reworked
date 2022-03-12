@@ -659,20 +659,115 @@ focus_tree = {
             
             }
         }
+		#Finnish Armed focses tree#
+		
 	focus = {
-		id = celebrate_finnish_independence
-		icon = GFX_invite_finland
-		x = 20
-		y = 3
-		cost = 1
-		cancel_if_invalid = yes
+        id = fin_military
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 15
+        y = 4
+        cost = 1
+        cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
+        prerequisite = {}
+
+        completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.7
+			uses = 2
+			category = infantry_tech
+			category = infantry_weapons
+			add_tech_bonus = {
+			bonus = 0.1
+			uses = 2
+			category = land_doctrine
+				}
+			}
+        }
+    }    
+	focus = {
+        id = fin_armed_forces
+        icon = GFX_goal_generic_allies_build_infantry
+        x = -2
+        y = 1
+        relative_position_id = fin_military
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_military}
+
+        completion_reward = {
+            army_experience = 10
+        }
+    }    
+	focus = {
+        id = fin_armed_forces_modernize
+        icon = GFX_focus_generic_military_mission
+        x = 0
+        y = 1
+        relative_position_id = fin_armed_forces
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_armed_forces}
+
+        completion_reward = {
+            army_experience = 10
+        }
+    }
+	focus = {
+        id = fin_modernize_equipment
+        icon = GFX_goal_generic_small_arms
+        x = 0
+        y = 1
+        relative_position_id = fin_armed_forces_modernize
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_armed_forces_modernize}
+
+        completion_reward = {
+            army_experience = 10
+        }
+    }
+	focus = {
+        id = fin_lotta_svard_recuitable_pop
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 1
+        relative_position_id = fin_military
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_military}
+
+        completion_reward = {
+			add_manpower = 1000
+        }
+    }    	
+	focus = {
+        id = fin_defence_against_sov #aka inv_molotov_coktail#
+        icon = GFX_goal_fin_inv_molotov_coktail
+        x = 0
+        y = 1
+        relative_position_id = fin_lotta_svard_recuitable_pop
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_lotta_svard_recuitable_pop}
+
+        completion_reward = {
+            army_experience = 10
+			add_ideas = fin_molotov_coktail
+        }
+	}
 		
-		completion_reward = {
-            add_manpower = 100000
-            }
-		}
 		
 		
 		
@@ -689,9 +784,4 @@ focus_tree = {
 		
 		
 		
-		
-		
-		
-		
-		
-	} #not tocuy thsi is the bottom of the bracets#
+}#not tocuy thsi is the bottom of the bracets#

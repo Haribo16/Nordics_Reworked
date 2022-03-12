@@ -38,8 +38,16 @@
  research_slot_extra_desc:0 ""
  finland_industrialized:0 "Finland Full Industrialized"
  finland_industrialized_desc:0 ""
- 
- #political Tree#
- celebrate_finnish_independence:0 "Cebrate our Independence"
- celebrate_finnish_independence_desc:0 "finlandia"
- 
+ #Military#
+ fin_military:0 "The Finnish Military"
+ fin_military_desc:0 ""
+ fin_armed_forces:0 "The Armed Forces"
+ fin_armed_forces_desc:0 ""
+ fin_armed_forces_modernize:0 "Modernising The Armed Forces"
+ fin_armed_forces_modernize_desc:0 ""
+ fin_modernize_equipment:0 "Modernising our Equipment"
+ fin_modernize_equipment_desc:0 ""
+ fin_lotta_svard_recuitable_pop:0 "Lotta Svård"
+ fin_lotta_svard_recuitable_pop_desc:0 ""
+ fin_defence_against_sov:0 "Invent Molotov Coctail"
+ fin_defence_against_sov_desc:0 ""

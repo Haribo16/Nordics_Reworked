@@ -8,4 +8,8 @@ spriteTypes = {
 		name = "GFX_idea_vl_finland"
 		texturefile = "gfx/interface/ideas/vl_finland.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_molotov_coktail_finland"
+		texturefile = "gfx/interface/ideas/molotov_coktail_finland.dds"	
+	}
 }

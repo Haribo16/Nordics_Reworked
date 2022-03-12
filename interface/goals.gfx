@@ -1,5 +1,11 @@
 spriteTypes = {	
 
+	#mod#
+	SpriteType = {
+	name = "GFX_goal_fin_inv_molotov_coktail"
+	texturefile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"			
+	}	
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
