@@ -4,8 +4,30 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_fin_inv_molotov_coktail"
 	texturefile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_expand_hame"
+	texturefile = "gfx/interface/goals/fin_expand_hame.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_arms_of_the_nation"
+	texturefile = "gfx/interface/goals/fin_arms_of_the_nation.dds"			
+	}		
+	SpriteType = {
+	name = "GFX_goal_fin_focus_on_tanks"
+	texturefile = "gfx/interface/goals/fin_focus_on_tanks.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_fin_modernize_doctrine"
+	texturefile = "gfx/interface/goals/fin_modernize_doctrine.dds"			
 	}	
 
+
+
+
+
+
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {

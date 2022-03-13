@@ -17,7 +17,7 @@
  focus_on_mils_desc:0 ""
  focus_on_mils_2:0 "Expand the Arms Factory in Hame"
  focus_on_mils_2_desc:0 ""
- focus_on_mils_3:0 "Buiding the Arms of The Nation"
+ focus_on_mils_3:0 "Building the Arms of The Nation"
  focus_on_mils_3_desc:0 ""
 
  #Infrastructure#
@@ -49,5 +49,13 @@
  fin_modernize_equipment_desc:0 ""
  fin_lotta_svard_recuitable_pop:0 "Lotta Svård"
  fin_lotta_svard_recuitable_pop_desc:0 ""
- fin_defence_against_sov:0 "Invent Molotov Coctail"
+ fin_defence_against_sov:0 "Invent Molotov Cocktail"
  fin_defence_against_sov_desc:0 ""
+ fin_focus_on_tanks:0 "Focus on Tanks"
+ fin_focus_on_tanks_desc:0 ""
+ fin_tanks_upgrade:0 "Make out Tanks Reliable"
+ fin_tanks_upgrade_desc:0 ""
+ fin_modernize_doctrine:0 "Modernise our Doctrine"
+ fin_modernize_doctrine_dsec:0 ""
+ fin_modernize_tank_designs:0 "Modernising our Tank Designs"
+ fin_modernize_tank_designs_desc:0 ""

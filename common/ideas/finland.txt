@@ -81,12 +81,8 @@ ideas = {
 		}
 		removal_cost = -1
 		modifier = {
-		army_armor_defence_factor = 0.5
-		army_armor_attack_factor = 0.5
-		mechanized_attack_factor = 0.5
-		mechanized_defence_factor = 0.5
-		motorized_attack = 0.5
-		motorized_defence = 0.5
+		army_armor_defence_factor = 0.15
+		army_armor_attack_factor = 0.15
 			}
 		}
 	}

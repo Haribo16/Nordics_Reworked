@@ -341,7 +341,7 @@ focus_tree = {
 
     focus = {
 		id = focus_on_mils_2 #milf 2#
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_fin_expand_hame
 		x = 0
 		y = 1
 		relative_position_id = focus_on_mils
@@ -425,7 +425,7 @@ focus_tree = {
 
 	    focus = {
 		id = focus_on_mils_3 #civs3#
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_fin_arms_of_the_nation
 		x = 0
 		y = 1
 		relative_position_id = focus_on_mils_2
@@ -610,20 +610,15 @@ focus_tree = {
         prerequisite = { focus = research_boost_civ }
 
         completion_reward = {
-            add_tech_bonus = {
+			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
-				category = infantry_weapons
+				category = industry
 				}
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
-				category = artillery
-				}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = support_tech
+				category = electronics
 				}
             }
     }
@@ -716,6 +711,16 @@ focus_tree = {
 
         completion_reward = {
             army_experience = 10
+			add_tech_bonus = {
+			bonus = 0.32
+			uses = 2
+			category = land_doctrine
+			}
+			add_tech_bonus = {
+			bonus = 0.32
+			uses = 2
+			category = infantry_weapons
+			}
         }
     }
 	focus = {
@@ -732,6 +737,11 @@ focus_tree = {
 
         completion_reward = {
             army_experience = 10
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+			}
         }
     }
 	focus = {
@@ -756,7 +766,7 @@ focus_tree = {
         x = 0
         y = 1
         relative_position_id = fin_lotta_svard_recuitable_pop
-        cost = 1
+        cost = 2
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -767,7 +777,121 @@ focus_tree = {
 			add_ideas = fin_molotov_coktail
         }
 	}
-		
+	focus = {
+        id = fin_focus_on_tanks
+        icon = GFX_goal_fin_focus_on_tanks
+        x = -1
+        y = 1
+        relative_position_id = fin_modernize_equipment
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_equipment}
+
+        completion_reward = {
+            army_experience = 10
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = armor
+			}
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = cat_light_armor
+			}
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = cat_medium_armor
+			}
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = cat_heavy_armor
+			}
+        }
+	}
+	focus = {
+        id = fin_tanks_upgrade
+        icon = GFX_goal_generic_army_tanks
+        x = 0
+        y = 1
+        relative_position_id = fin_focus_on_tanks
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_focus_on_tanks}
+
+        completion_reward = {
+           add_doctrine_cost_reduction = {
+				name = air_sup_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = cat_mobile_warfare
+			}
+		}
+		}
+	focus = {
+        id = fin_modernize_doctrine
+        icon = GFX_goal_fin_modernize_doctrine
+        x = 0
+        y = 1
+        relative_position_id = fin_tanks_upgrade
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_tanks_upgrade}
+
+        completion_reward = {
+           add_doctrine_cost_reduction = {
+				name = air_sup_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = cat_mobile_warfare
+			}
+		add_doctrine_cost_reduction = {
+				name = air_sup_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = land_doctrine
+			}
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = artillery
+				technology = mechanised_infantry
+				}	
+			}
+		}
+	
+    focus = {
+        id = fin_modernize_tank_designs 
+        icon = GFX_goal_generic_army_tanks
+        x = 0
+        y = 1
+        relative_position_id = fin_modernize_doctrine
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_doctrine}
+
+        completion_reward = {
+           add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+				}	
+		}
+	}
 		
 		
 		
