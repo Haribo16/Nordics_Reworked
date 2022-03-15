@@ -12,4 +12,8 @@ spriteTypes = {
 		name = "GFX_idea_molotov_coktail_finland"
 		texturefile = "gfx/interface/ideas/molotov_coktail_finland.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_ALA_swedish_tensions"
+		texturefile = "gfx/interface/ideas/ALA_swedish_tensions.dds"	
+	}
 }

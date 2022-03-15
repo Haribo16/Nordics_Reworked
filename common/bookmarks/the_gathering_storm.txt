@@ -59,6 +59,15 @@ bookmarks = {
 				
 			}
 		}
+		"ALA"={
+			history = "ALA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}	
+			focuses = {
+				
+			}		
+		}
 	
 	}
 }	
