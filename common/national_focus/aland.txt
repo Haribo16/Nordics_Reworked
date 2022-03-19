@@ -1,0 +1,48 @@
+focus_tree = {
+	id = aland_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ALA
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 150 y = 2500 }
+	
+	focus = {
+	id =  ala_born_on_the_loney_island
+	icon = GFX_goal_ala_born_on_the_loney_island
+	x = 3
+	y = 5
+	cost = 10
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	completion_reward = {
+	
+	}
+	}
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}#not tocuy thsi is the bottom of the bracets#

@@ -1,6 +1,6 @@
 spriteTypes = {	
 
-	#mod#
+	#fin#
 	SpriteType = {
 	name = "GFX_goal_fin_inv_molotov_coktail"
 	texturefile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"			
@@ -21,6 +21,11 @@ spriteTypes = {
 	name = "GFX_goal_fin_modernize_doctrine"
 	texturefile = "gfx/interface/goals/fin_modernize_doctrine.dds"			
 	}	
+	#ala#
+	SpriteType = {
+	name = "GFX_goal_ala_born_on_the_loney_island"
+	texturefile = "gfx/interface/goals/ala_born_on_the_loney_island.dds"			
+	}
 
 
 
