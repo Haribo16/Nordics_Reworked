@@ -16,4 +16,16 @@ spriteTypes = {
 		name = "GFX_idea_ALA_swedish_tensions"
 		texturefile = "gfx/interface/ideas/ALA_swedish_tensions.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_FIN_expand_paper_export"
+		texturefile = "gfx/interface/ideas/FIN_expand_paper_export.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_increase_conscription"
+		texturefile = "gfx/interface/ideas/FIN_increase_conscription.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_increase_gun_production"
+		texturefile = "gfx/interface/ideas/FIN_increase_gun_production.dds"	
+	}
 }

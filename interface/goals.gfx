@@ -18,9 +18,25 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/fin_focus_on_tanks.dds"			
 	}	
 	SpriteType = {
-	name = "GFX_goal_fin_modernize_doctrine"
-	texturefile = "gfx/interface/goals/fin_modernize_doctrine.dds"			
-	}	
+	name = "GFX_goal_fin_modernize_doctrine_mobile_warfare"
+	texturefile = "gfx/interface/goals/fin_modernize_doctrine_mobile_warfare.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_focus_on_mass_assault"
+	texturefile = "gfx/interface/goals/fin_focus_on_mass_assault.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_increase_conscription"
+	texturefile = "gfx/interface/goals/fin_increase_conscription.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_modernize_doctrine_mass_assault"
+	texturefile = "gfx/interface/goals/fin_modernize_doctrine_mass_assault.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_FIN_increase_gun_production"
+	texturefile = "gfx/interface/goals/FIN_increase_gun_production.dds"			
+	}
 	#ala#
 	SpriteType = {
 	name = "GFX_goal_ala_born_on_the_loney_island"

@@ -19,8 +19,8 @@ focus_tree = {
 	focus = {
 		id = promote_further_industrialization
 		icon = GFX_goal_generic_construction
-		x = 3
-		y = 5
+		x = 0
+		y = 0
 		cost = 10
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -58,56 +58,8 @@ focus_tree = {
 			}
 		} 
 		ai_will_do = {
-	}
-
-	}
-	focus = {
-		id = encourage_the_timber_industry
-		icon = GFX_goal_generic_major_war
-		x = 1
-		y = 1
-        relative_position_id = promote_further_industrialization
-        prerequisite = { focus = promote_further_industrialization }
-	    cost = 1
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-		ai_will_do = {
 		}
 	}
-		
 	#infrastructure#
 
 	focus = {
@@ -199,112 +151,18 @@ focus_tree = {
 			}
 		}
 		
-    focus = {
-		id = focus_on_mils #mil#
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 3
-		y = 1
-		relative_position_id = encourage_the_timber_industry
-		cost = 1
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		prerequisite = { focus = encourage_the_timber_industry }
-
-		mutually_exclusive = { focus = focus_on_civs }
-		completion_reward = {
-            random_owned_controlled_state = {
-                limit = {
-                    free_building_slots = {
-                        building = arms_factory
-                        size > 0
-                        include_locked = yes
-                    }
-                    OR = {
-                        is_in_home_area = yes
-                        NOT = {
-                            owner = {
-                                any_owned_state = {
-                                    free_building_slots = {
-                                        building = arms_factory
-                                        size > 0
-                                        include_locked = yes
-                                    }
-                                    is_in_home_area = yes
-                                }
-                            }
-                        }
-                    }
-                }
-                add_extra_state_shared_building_slots = 1
-                add_building_construction = {
-                    type = arms_factory
-                    level = 1
-                    instant_build = yes
-					}
-				}
-			}
-		}
- 
-    focus = {
-		id = focus_on_civs #civs#
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 1
-		y = 1
-		relative_position_id = encourage_the_timber_industry
-		cost = 2
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		prerequisite = { focus = encourage_the_timber_industry }
-		mutually_exclusive = { focus = focus_on_mils }
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		} 
-	}
-
 	focus = {
 		id = focus_on_civs_2 #civs2#
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = focus_on_civs
+		relative_position_id = promote_further_industrialization
 		cost = 6
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		prerequisite = { focus = focus_on_civs }
+		prerequisite = { focus = promote_further_industrialization }
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -342,14 +200,14 @@ focus_tree = {
     focus = {
 		id = focus_on_mils_2 #milf 2#
 		icon = GFX_goal_fin_expand_hame
-		x = 0
+		x = 3
 		y = 1
-		relative_position_id = focus_on_mils
+		relative_position_id = promote_further_industrialization
 		cost = 6
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		prerequisite = { focus = focus_on_mils }
+		prerequisite = { focus = promote_further_industrialization }
 
 		completion_reward = {
             838 = {
@@ -530,63 +388,19 @@ focus_tree = {
 				}
 			}
 		}
-    focus = {
-        id = improve_infrastructure_4 #infrastructure4#
-        icon = GFX_goal_generic_construct_infrastructure
-        x = 0
-        y = 1
-        relative_position_id = improve_infrastructure_3
-        cost = 10
-        cancel_if_invalid = yes
-        continue_if_invalid = no
-        available_if_capitulated = no
-        prerequisite = { focus = improve_infrastructure_3 }
 
-        completion_reward = {
-            random_owned_controlled_state = {
-                limit = {
-                    free_building_slots = {
-                        building = infrastructure
-                        size > 1
-                        include_locked = yes
-                    }
-                    OR = {
-                        is_in_home_area = yes
-                        NOT = {
-                            owner = {
-                                any_owned_state = {
-                                    free_building_slots = {
-                                        building = infrastructure
-                                        size > 1
-                                        include_locked = yes
-                                    }
-                                    is_in_home_area = yes
-                                }
-                            }
-                        }
-                    }
-                }
-                add_extra_state_shared_building_slots = 4
-                add_building_construction = {
-                    type = infrastructure
-                    level = 4
-                    instant_build = yes
-                    }
-                }
-            }
-        }
 	#research#
 	focus = {
         id = research_boost_civ #research 1#
         icon = GFX_focus_research
         x = -1
         y = 1
-        relative_position_id = encourage_the_timber_industry
+        relative_position_id = promote_further_industrialization
         cost = 1
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
-        prerequisite = { focus = encourage_the_timber_industry }
+        prerequisite = { focus = promote_further_industrialization }
 
         completion_reward = {
             add_tech_bonus = {
@@ -596,43 +410,18 @@ focus_tree = {
 				}
             }
         }
-		
-	focus = {
-        id = research_boost_eqip #research 2#
-        icon = GFX_focus_research
-        x = 0
-        y = 1
-        relative_position_id = research_boost_civ
-        cost = 4
-        cancel_if_invalid = yes
-        continue_if_invalid = no
-        available_if_capitulated = no
-        prerequisite = { focus = research_boost_civ }
 
-        completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = industry
-				}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = electronics
-				}
-            }
-    }
 	focus = {
         id = research_slot_extra #research 1#
         icon = GFX_focus_research
         x = 0
         y = 1
-        relative_position_id = research_boost_eqip
+        relative_position_id = research_boost_civ
         cost = 6
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
-        prerequisite = { focus = research_boost_eqip }
+        prerequisite = { focus = research_boost_civ }
 
         completion_reward = {
             add_research_slot = 2
@@ -651,7 +440,7 @@ focus_tree = {
         prerequisite = { focus = research_slot_extra focus = focus_on_civs_3 focus = focus_on_mils_3}
 
         completion_reward = {
-            
+            add_ideas = FIN_expand_paper_export
             }
         }
 		#Finnish Armed focses tree#
@@ -659,8 +448,8 @@ focus_tree = {
 	focus = {
         id = fin_military
         icon = GFX_goal_generic_allies_build_infantry
-        x = 15
-        y = 4
+        x = 10
+        y = 0
         cost = 1
         cancel_if_invalid = yes
         continue_if_invalid = no
@@ -681,9 +470,10 @@ focus_tree = {
 			}
         }
     }    
+	
 	focus = {
-        id = fin_armed_forces
-        icon = GFX_goal_generic_allies_build_infantry
+        id = fin_armed_forces_modernize
+        icon = GFX_focus_generic_military_mission
         x = -2
         y = 1
         relative_position_id = fin_military
@@ -692,22 +482,6 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_military}
-
-        completion_reward = {
-            army_experience = 10
-        }
-    }    
-	focus = {
-        id = fin_armed_forces_modernize
-        icon = GFX_focus_generic_military_mission
-        x = 0
-        y = 1
-        relative_position_id = fin_armed_forces
-        cost = 1
-        cancel_if_invalid = yes
-        continue_if_invalid = no
-        available_if_capitulated = no
-        prerequisite = {focus = fin_armed_forces}
 
         completion_reward = {
             army_experience = 10
@@ -788,6 +562,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_modernize_equipment}
+		mutually_exclusive {focus = fin_focus_on_mass_assault }
 
         completion_reward = {
             army_experience = 10
@@ -833,10 +608,10 @@ focus_tree = {
 				category = cat_mobile_warfare
 			}
 		}
-		}
+	}
 	focus = {
-        id = fin_modernize_doctrine
-        icon = GFX_goal_fin_modernize_doctrine
+        id = fin_modernize_doctrine_mobile_warfare
+        icon = GFX_goal_fin_modernize_doctrine_mobile_warfare
         x = 0
         y = 1
         relative_position_id = fin_tanks_upgrade
@@ -874,12 +649,12 @@ focus_tree = {
         icon = GFX_goal_generic_army_tanks
         x = 0
         y = 1
-        relative_position_id = fin_modernize_doctrine
+        relative_position_id = fin_modernize_doctrine_mobile_warfare
         cost = 5
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
-        prerequisite = {focus = fin_modernize_doctrine}
+        prerequisite = {focus = fin_modernize_doctrine_mobile_warfare}
 
         completion_reward = {
            add_tech_bonus = {
@@ -892,6 +667,110 @@ focus_tree = {
 				}	
 		}
 	}
+	
+	focus = {
+        id = fin_focus_on_mass_assault
+        icon = GFX_goal_fin_focus_on_mass_assault
+        x = 1
+        y = 1
+        relative_position_id = fin_modernize_equipment
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_equipment }
+		mutually_exclusive = { focus = fin_focus_on_tanks }
+
+        completion_reward = {
+			    add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = infantry_weapons
+				}	
+			add_offsite_building = { type = arms_factory level = 1 }
+		}	
+	}
+		
+	focus = {
+        id = fin_increase_conscription
+        icon = GFX_goal_fin_increase_conscription
+        x = 0
+        y = 1
+        relative_position_id = fin_focus_on_mass_assault
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_focus_on_mass_assault }
+
+        completion_reward = {
+			add_ideas = fin_increase_conscription
+			add_ideas = extensive_conscription
+			}	
+		}
+	
+	focus = {
+        id = fin_modernize_doctrine_mass_assault
+        icon = GFX_goal_fin_modernize_doctrine_mass_assault
+        x = 0
+        y = 1
+        relative_position_id = fin_increase_conscription
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_increase_conscription }
+
+        completion_reward = {
+		add_doctrine_cost_reduction = {
+				name = air_sup_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = cat_mass_assault
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = artillery
+				technology = infantry_weapons
+				}	
+			}
+		}	
+	}	
+	focus = {
+        id = fin_increase_gun_production
+        icon = GFX_goal_FIN_increase_gun_production
+        x = 0
+        y = 1
+        relative_position_id = fin_modernize_doctrine_mass_assault
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_doctrine_mass_assault }
+
+        completion_reward = {
+		add_ideas = FIN_increase_gun_production
+			}	
+		}
+			#supperior Fierpower focuses#
+	focus = {
+        id = fin_focus_on_special_forces
+        icon = GFX_goal_FIN_increase_gun_production
+        x = 0
+        y = 1
+        relative_position_id = fin_modernize_equipment
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_doctrine_mass_assault }
+
+        completion_reward = {
+		add_ideas = FIN_increase_gun_production
+			}	
+		}
 		
 		
 		
@@ -902,10 +781,4 @@ focus_tree = {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-}#not tocuy thsi is the bottom of the bracets#
+}#bottom#

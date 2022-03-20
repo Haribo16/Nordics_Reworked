@@ -85,7 +85,53 @@ ideas = {
 		army_armor_attack_factor = 0.15
 			}
 		}
+	FIN_expand_paper_export = {
+		picture = FIN_expand_paper_export
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+			consumer_goods_factor = -0.1
+			}
+		}
+			#mass assault#
+	FIN_increase_conscription = {
+		picture = FIN_increase_conscription
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+			conscription_factor = 0.3
+			conscription = 0.1
+			}
+		}
+	FIN_increase_gun_production = {
+		picture = FIN_increase_gun_production
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+		production_factory_efficiency_gain_factor = 0.5 
+		production_factory_max_efficiency_factor = 0.5
+			}
+		}
 	}
+	
 
 	# TECHNOLOGY
 	
