@@ -59,4 +59,13 @@
  fin_modernize_doctrine_mass_assault_desc:0 ""
  fin_increase_gun_production:0 "Increase Gun Production"
  fin_increase_gun_production_desc:0 ""
+ #Supperior Firepower#
+ fin_focus_on_special_forces:0 "Focus on Creating Special trained Army"
+ fin_focus_on_special_forces_desc:0 ""
+ fin_learn_from_the_prussians:0 "Learn From the Prussians"
+ fin_learn_from_the_prussians_desc:0 ""
+ fin_modernize_doctrine_superior_firepower:0 "Modernise our Doctrine"
+ fin_modernize_doctrine_superior_firepower_desc:0 ""
+ fin_civ_war_veterans_teach_soilders:0 "Let Civilwar Veterans Teach Soldiers"
+ fin_civ_war_veterans_teach_soilders_desc:0 ""
  

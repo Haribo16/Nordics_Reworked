@@ -12,7 +12,9 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_fin_arms_of_the_nation"
 	texturefile = "gfx/interface/goals/fin_arms_of_the_nation.dds"			
-	}		
+	}
+	#fin mobile warfare#
+	
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_tanks"
 	texturefile = "gfx/interface/goals/fin_focus_on_tanks.dds"			
@@ -21,6 +23,9 @@ spriteTypes = {
 	name = "GFX_goal_fin_modernize_doctrine_mobile_warfare"
 	texturefile = "gfx/interface/goals/fin_modernize_doctrine_mobile_warfare.dds"			
 	}
+	
+	#fin_mass_assault#
+	
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_mass_assault"
 	texturefile = "gfx/interface/goals/fin_focus_on_mass_assault.dds"			
@@ -37,6 +42,26 @@ spriteTypes = {
 	name = "GFX_goal_FIN_increase_gun_production"
 	texturefile = "gfx/interface/goals/FIN_increase_gun_production.dds"			
 	}
+	
+	#fin_Supperior Firepower#
+	SpriteType = {
+	name = "GFX_goal_fin_focus_on_special_forces"
+	texturefile = "gfx/interface/goals/fin_focus_on_special_forces.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_fin_learn_from_the_prussians"
+	texturefile = "gfx/interface/goals/fin_learn_from_the_prussians.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_modernize_doctrine_superior_firepower"
+	texturefile = "gfx/interface/goals/fin_modernize_doctrine_superior_firepower.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_civ_war_veterans_teach_soilders"
+	texturefile = "gfx/interface/goals/fin_civ_war_veterans_teach_soilders.dds"			
+	}
+	
 	#ala#
 	SpriteType = {
 	name = "GFX_goal_ala_born_on_the_loney_island"

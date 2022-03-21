@@ -28,4 +28,8 @@ spriteTypes = {
 		name = "GFX_idea_FIN_increase_gun_production"
 		texturefile = "gfx/interface/ideas/FIN_increase_gun_production.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_FIN_the_prussian_officer_system"
+		texturefile = "gfx/interface/ideas/FIN_the_prussian_officer_system.dds"	
+	}
 }

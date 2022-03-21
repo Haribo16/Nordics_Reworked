@@ -130,6 +130,42 @@ ideas = {
 		production_factory_max_efficiency_factor = 0.5
 			}
 		}
+	FIN_the_prussian_officer_system = {
+		picture = FIN_the_prussian_officer_system
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+		army_defence_factor = 0.15
+		army_attack_factor = 0.15
+		army_morale = 10
+		army_org = 10
+			}
+		}
+	FIN_the_prussian_officer_system_2 = {
+		picture = FIN_the_prussian_officer_system
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+		army_defence_factor = 0.15
+		army_attack_factor = 0.15
+		army_morale = 10
+		army_org = 10
+		army_artillery_defence_factor = 0.5
+		army_artillery_attack_factor = 0.5
+			}
+		}
 	}
 	
 

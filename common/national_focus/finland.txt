@@ -562,7 +562,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_modernize_equipment}
-		mutually_exclusive {focus = fin_focus_on_mass_assault }
+		mutually_exclusive {focus = fin_focus_on_mass_assault focus = fin_focus_on_special_forces }
 
         completion_reward = {
             army_experience = 10
@@ -619,7 +619,7 @@ focus_tree = {
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
-        prerequisite = {focus = fin_tanks_upgrade}
+        prerequisite = {focus = fin_tanks_upgrade }
 
         completion_reward = {
            add_doctrine_cost_reduction = {
@@ -679,7 +679,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_modernize_equipment }
-		mutually_exclusive = { focus = fin_focus_on_tanks }
+		mutually_exclusive = { focus = fin_focus_on_tanks  focus= fin_focus_on_special_forces}
 
         completion_reward = {
 			    add_tech_bonus = {
@@ -754,24 +754,87 @@ focus_tree = {
 		add_ideas = FIN_increase_gun_production
 			}	
 		}
-			#supperior Fierpower focuses#
+			#Supperior Firepower focuses#
 	focus = {
         id = fin_focus_on_special_forces
-        icon = GFX_goal_FIN_increase_gun_production
-        x = 0
+        icon = GFX_goal_fin_focus_on_special_forces
+        x = 3
         y = 1
         relative_position_id = fin_modernize_equipment
         cost = 5
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
-        prerequisite = {focus = fin_modernize_doctrine_mass_assault }
+        prerequisite = {focus = fin_modernize_equipment }
 
         completion_reward = {
-		add_ideas = FIN_increase_gun_production
+			army_experience = 10
+			add_command_power = 10
 			}	
 		}
 		
+	focus = {
+        id = fin_learn_from_the_prussians
+        icon = GFX_goal_fin_learn_from_the_prussians
+        x = 0
+        y = 1
+        relative_position_id = fin_focus_on_special_forces
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_focus_on_special_forces }
+
+        completion_reward = {
+		add_ideas = FIN_the_prussian_officer_system
+		}	
+	}
+	focus = {
+        id = fin_modernize_doctrine_superior_firepower
+        icon = GFX_goal_fin_modernize_doctrine_superior_firepower
+        x = 0
+        y = 1
+        relative_position_id = fin_learn_from_the_prussians
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_learn_from_the_prussians }
+
+        completion_reward = {
+		add_doctrine_cost_reduction = {
+				name = air_sup_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = cat_superior_firepower
+			}	
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				technology = interwar_artillery
+				technology = antiair2
+			}	
+		}
+	}
+	focus = {
+        id = fin_civ_war_veterans_teach_soilders
+        icon = GFX_goal_fin_civ_war_veterans_teach_soilders
+        x = 0
+        y = 1
+        relative_position_id = fin_modernize_doctrine_superior_firepower
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_doctrine_superior_firepower }
+
+        completion_reward = {
+			swap_ideas = {
+			remove_idea = FIN_the_prussian_officer_system
+			add_idea = FIN_the_prussian_officer_system_2
+			}
+		}	
+	}
 		
 		
 		
