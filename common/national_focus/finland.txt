@@ -429,7 +429,8 @@ focus_tree = {
         }
 	focus = {
         id = finland_industrialized #end of Industry tree#
-        icon = GFX_focus_research
+        icon = GFX_goal_fin_expand_paper_export
+        icon = GFX_goal_fin_expand_paper_export
         x = 2
         y = 1
         relative_position_id = research_slot_extra
@@ -562,7 +563,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_modernize_equipment}
-		mutually_exclusive {focus = fin_focus_on_mass_assault focus = fin_focus_on_special_forces }
+		mutually_exclusive {focus = fin_focus_on_mass_assault focus = fin_focus_on_special_forces  focus = fin_focus_on_defence}
 
         completion_reward = {
             army_experience = 10
@@ -679,7 +680,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_modernize_equipment }
-		mutually_exclusive = { focus = fin_focus_on_tanks  focus= fin_focus_on_special_forces}
+		mutually_exclusive = { focus = fin_focus_on_tanks  focus= fin_focus_on_special_forces focus= fin_focus_on_defence}
 
         completion_reward = {
 			    add_tech_bonus = {
@@ -766,6 +767,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
         prerequisite = {focus = fin_modernize_equipment }
+		mutually_exclusive = {focus = fin_focus_on_defence}
 
         completion_reward = {
 			army_experience = 10
@@ -835,13 +837,469 @@ focus_tree = {
 			}
 		}	
 	}
+		#grand battleplan focuses#
+	focus = {
+        id = fin_focus_on_defence
+        icon = GFX_goal_fin_focus_on_defence
+        x = 5
+        y = 1
+        relative_position_id = fin_modernize_equipment
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_equipment }
+
+        completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
+			}
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = recon_tech
+			}
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = support_tech
+			}
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = engineers_tech
+			}
+		}	
+	}
+	
+	focus = {
+        id = fin_increase_fort_speed
+        icon = GFX_goal_generic_defence
+        x = 0
+        y = 1
+        relative_position_id = fin_focus_on_defence
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_focus_on_defence }
+
+        completion_reward = {
+		add_ideas = FIN_increase_fort_speed
+		}	
+	}		
+	focus = {
+        id = fin_modernize_doctrine_grand_battleplan
+        icon = GFX_goal_fin_modernize_doctrine_grand_battleplan
+        x = 0
+        y = 1
+        relative_position_id = fin_increase_fort_speed
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_increase_fort_speed }
+
+        completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = air_sup_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = cat_grand_battle_plan
+			}	
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				technology = interwar_artillery
+				technology = infantry_weapons
+			}	
+		}	
+	}			
+	focus = {
+        id = fin_increase_entrencement_speed
+        icon = GFX_goal_fin_increase_entrencement_speed
+        x = 0
+        y = 1
+        relative_position_id = fin_modernize_doctrine_grand_battleplan
+        cost = 5
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_modernize_doctrine_grand_battleplan }
+
+        completion_reward = {
+			add_ideas = FIN_increase_entrencement_speed
+		}	
+	}	
+
+	focus = {
+        id = fin_who_is_the_greater_threat
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 10
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_military}
+		relative_position_id = fin_military
+
+        completion_reward = {
+			
+        }
+    }    
+	focus = {
+        id = fin_swe_nor_is_the_greater_threat
+        icon = GFX_goal_fin_swe_nor_is_the_greater_threat
+        x = -1
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_who_is_the_greater_threat}
+		relative_position_id = fin_who_is_the_greater_threat
+		mutually_exclusive {focus = fin_sov_is_the_greater_threat}
+
+        completion_reward = {
+			
+        }
+    }    	
+	focus = {
+        id = fin_fortify_lapi
+        icon = GFX_goal_fin_fortify_lapi
+        x = 0
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_swe_nor_is_the_greater_threat}
+		relative_position_id = fin_swe_nor_is_the_greater_threat
+
+        completion_reward = {
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 3097
+			
+			level = 1
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 6061
+			level = 1
+				}
+			}
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 3069
+			level = 1
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 167
+			
+			level = 1
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 203
+			level = 1
+				}
+			}
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11130
+			level = 1
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11115
+			level = 1
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 3193
+			level = 1
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11125
+			level = 1
+				}
+			} 
+        }
+    }    		
+	focus = {
+        id = fin_fortify_lapi_2
+        icon = GFX_goal_fin_fortify_lapi_2
+        x = 0
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_fortify_lapi}
+		relative_position_id = fin_fortify_lapi
+
+        completion_reward = {
+			148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 3097
+			
+			level = 2
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 6061
+			level = 2
+				}
+			}
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 3069
+			level = 2
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 167
+			
+			level = 2
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 203
+			level = 2
+				}
+			}
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11130
+			level = 2
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11115
+			level = 2
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 3193
+			level = 2
+				}
+			} 
+		148 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11125
+			level = 2
+				}
+			} 
+        }
+    } 
+	
+	focus = {
+        id = fin_fortify_baltic_coast
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 0
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_fortify_lapi_2}
+		relative_position_id = fin_fortify_lapi_2
+
+        completion_reward = {
+		111 = {
+			add_building_construction = {
+			type = coastal_bunker
+        	province = 11105
+			
+			level = 3
+				}
+			}
+		111 = {
+			add_building_construction = {
+			type = coastal_bunker
+        	province = 6009
+			
+			level = 3
+				}
+			}
+		836 = {
+			add_building_construction = {
+			type = coastal_bunker
+        	province = 3083
+			level = 3
+				}
+			}
+		149 = {
+			add_building_construction = {
+			type = coastal_bunker
+        	province = 3122
+			level = 3
+				}
+			}
+		146 = {
+			add_building_construction = {
+			type = coastal_bunker
+        	province = 9206
+			level = 3
+				}
+			}
+        }
+    }    	
+	focus = {
+        id = fin_sov_is_the_greater_threat
+        icon = GFX_goal_generic_war_with_comintern
+        x = 1
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_who_is_the_greater_threat}
+		relative_position_id = fin_who_is_the_greater_threat
+
+        completion_reward = {
+			
+        }
+    }
+	focus = {
+        id = fin_fortify_salla
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 0
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_sov_is_the_greater_threat}
+		relative_position_id = fin_sov_is_the_greater_threat
+
+        completion_reward = {
+		147 = {
+			add_building_construction = {
+			type = bunker
+        	province = 9158
+			
+			level = 5
+				}
+			} 
+		147 = {
+			add_building_construction = {
+			type = bunker
+        	province = 197
+			level = 5
+				}
+			}
+		147 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11085
+			level = 5
+				}
+			} 
+        }
+    }    	
+	focus = {
+        id = fin_improve_the_mannerheim_line
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 0
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_fortify_salla}
+		relative_position_id = fin_fortify_salla
+
+        completion_reward = {
+		146 = {
+			add_building_construction = {
+			type = bunker
+        	province = 9100
+			
+			level = 3
+				}
+			} 
+		146 = {
+			add_building_construction = {
+			type = bunker
+        	province = 9105
+			level = 3
+				}
+			}
+        }
+    } 
 		
-		
-		
-		
-		
-		
-		
-		
+	focus = {
+        id = fin_fortify_noth_karelia
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 0
+        y = 1
+        cost = 1
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        prerequisite = {focus = fin_improve_the_mannerheim_line}
+		relative_position_id = fin_improve_the_mannerheim_line
+
+        completion_reward = {
+		146 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11156
+			
+			level = 5
+				}
+			} 
+		146 = {
+			add_building_construction = {
+			type = bunker
+        	province = 11046
+			level = 5
+				}
+			}
+		146 = {
+			add_building_construction = {
+			type = bunker
+        	province = 6052
+			level = 5
+				}
+			} 	
+        }
+    }    	
 		
 }#bottom#

@@ -2,6 +2,10 @@ spriteTypes = {
 
 	#fin#
 	SpriteType = {
+	name = "GFX_goal_fin_expand_paper_export"
+	texturefile = "gfx/interface/goals/fin_expand_paper_export.dds"			
+	}
+	SpriteType = {
 	name = "GFX_goal_fin_inv_molotov_coktail"
 	texturefile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"			
 	}
@@ -61,7 +65,34 @@ spriteTypes = {
 	name = "GFX_goal_fin_civ_war_veterans_teach_soilders"
 	texturefile = "gfx/interface/goals/fin_civ_war_veterans_teach_soilders.dds"			
 	}
-	
+	#fin_focus_on_defence#
+	SpriteType = {
+	name = "GFX_goal_fin_focus_on_defence"
+	texturefile = "gfx/interface/goals/fin_focus_on_defence.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_modernize_doctrine_grand_battleplan"
+	texturefile = "gfx/interface/goals/fin_modernize_doctrine_grand_battleplan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_fin_increase_entrencement_speed"
+	texturefile = "gfx/interface/goals/fin_increase_entrencement_speed.dds"			
+	}
+	#fin_swe_nor_is_the_greater_threat#
+	SpriteType = {
+	name = "GFX_goal_fin_swe_nor_is_the_greater_threat"
+	texturefile = "gfx/interface/goals/fin_swe_nor_is_the_greater_threat.dds"			
+	}
+	#fin_fortify_lapi#
+	SpriteType = {
+	name = "GFX_goal_fin_fortify_lapi"
+	texturefile = "gfx/interface/goals/fin_fortify_lapi.dds"			
+	}
+	#fin_fortify_lapi_2#
+	SpriteType = {
+	name = "GFX_goal_fin_fortify_lapi_2"
+	texturefile = "gfx/interface/goals/fin_fortify_lapi_2.dds"			
+	}
 	#ala#
 	SpriteType = {
 	name = "GFX_goal_ala_born_on_the_loney_island"

@@ -166,6 +166,38 @@ ideas = {
 		army_artillery_attack_factor = 0.5
 			}
 		}
+	FIN_increase_fort_speed = {
+		picture = GFX_idea_generic_production_bonus
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+		production_speed_bunker_factor = 0.25
+			}
+		}
+	FIN_increase_entrencement_speed = {
+		picture = 
+		
+		allowed = {tag = FIN}
+		available = {}
+		cancel = {}
+		allowed_civil_war = {
+		always = no
+		}
+		removal_cost = -1
+		modifier = {
+		army_defence_factor = 0.15
+		army_attack_factor = 0.15
+		army_morale = 10
+		army_org = 10
+		production_speed_bunker_factor = 0.1
+			}
+		}
 	}
 	
 
