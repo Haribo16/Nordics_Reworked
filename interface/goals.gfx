@@ -3,100 +3,120 @@ spriteTypes = {
 	#fin#
 	SpriteType = {
 	name = "GFX_goal_fin_expand_paper_export"
-	texturefile = "gfx/interface/goals/fin_expand_paper_export.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_expand_paper_export.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_inv_molotov_coktail"
-	texturefile = "gfx/interface/goals/fin_inv_molotov_coktail.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_inv_molotov_coktail.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_expand_hame"
-	texturefile = "gfx/interface/goals/fin_expand_hame.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_expand_hame.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_arms_of_the_nation"
-	texturefile = "gfx/interface/goals/fin_arms_of_the_nation.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_arms_of_the_nation.dds"			
 	}
 	#fin mobile warfare#
 	
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_tanks"
-	texturefile = "gfx/interface/goals/fin_focus_on_tanks.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_focus_on_tanks.dds"			
 	}	
 	SpriteType = {
 	name = "GFX_goal_fin_modernize_doctrine_mobile_warfare"
-	texturefile = "gfx/interface/goals/fin_modernize_doctrine_mobile_warfare.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_mobile_warfare.dds"			
 	}
 	
 	#fin_mass_assault#
 	
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_mass_assault"
-	texturefile = "gfx/interface/goals/fin_focus_on_mass_assault.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_focus_on_mass_assault.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_increase_conscription"
-	texturefile = "gfx/interface/goals/fin_increase_conscription.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_increase_conscription.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_modernize_doctrine_mass_assault"
-	texturefile = "gfx/interface/goals/fin_modernize_doctrine_mass_assault.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_mass_assault.dds"			
 	}
 	SpriteType = {
-	name = "GFX_goal_FIN_increase_gun_production"
-	texturefile = "gfx/interface/goals/FIN_increase_gun_production.dds"			
+	name = "GFX_goal_fin_increase_gun_production"
+	texturefile = "gfx/interface/goals/fin/fin_increase_gun_production.dds"			
 	}
 	
 	#fin_Supperior Firepower#
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_special_forces"
-	texturefile = "gfx/interface/goals/fin_focus_on_special_forces.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_focus_on_special_forces.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_goal_fin_learn_from_the_prussians"
-	texturefile = "gfx/interface/goals/fin_learn_from_the_prussians.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_learn_from_the_prussians.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_modernize_doctrine_superior_firepower"
-	texturefile = "gfx/interface/goals/fin_modernize_doctrine_superior_firepower.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_superior_firepower.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_civ_war_veterans_teach_soilders"
-	texturefile = "gfx/interface/goals/fin_civ_war_veterans_teach_soilders.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_civ_war_veterans_teach_soilders.dds"			
 	}
 	#fin_focus_on_defence#
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_defence"
-	texturefile = "gfx/interface/goals/fin_focus_on_defence.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_focus_on_defence.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_modernize_doctrine_grand_battleplan"
-	texturefile = "gfx/interface/goals/fin_modernize_doctrine_grand_battleplan.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_grand_battleplan.dds"			
 	}
 	SpriteType = {
 	name = "GFX_goal_fin_increase_entrencement_speed"
-	texturefile = "gfx/interface/goals/fin_increase_entrencement_speed.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_increase_entrencement_speed.dds"			
 	}
 	#fin_swe_nor_is_the_greater_threat#
 	SpriteType = {
 	name = "GFX_goal_fin_swe_nor_is_the_greater_threat"
-	texturefile = "gfx/interface/goals/fin_swe_nor_is_the_greater_threat.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_swe_nor_is_the_greater_threat.dds"			
 	}
 	#fin_fortify_lapi#
 	SpriteType = {
 	name = "GFX_goal_fin_fortify_lapi"
-	texturefile = "gfx/interface/goals/fin_fortify_lapi.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_fortify_lapi.dds"			
 	}
 	#fin_fortify_lapi_2#
 	SpriteType = {
 	name = "GFX_goal_fin_fortify_lapi_2"
-	texturefile = "gfx/interface/goals/fin_fortify_lapi_2.dds"			
+	texturefile = "gfx/interface/goals/fin/fin_fortify_lapi_2.dds"			
+	}
+	#fin_sov_is_the_greater_threat#
+	SpriteType = {
+	name = "GFX_goal_fin_sov_is_the_greater_threat"
+	texturefile = "gfx/interface/goals/fin/fin_sov_is_the_greater_threat.dds"			
+	}
+	#fin_fortify_salla#
+	SpriteType = {
+	name = "GFX_goal_fin_fortify_salla"
+	texturefile = "gfx/interface/goals/fin/fin_fortify_salla.dds"			
+	}
+	#fin_improve_the_mannerheim_line#
+	SpriteType = {
+	name = "GFX_goal_fin_improve_the_mannerheim_line"
+	texturefile = "gfx/interface/goals/fin/fin_improve_the_mannerheim_line.dds"			
+	}
+	#fin_fortify_noth_karelia#
+	SpriteType = {
+	name = "GFX_goal_fin_fortify_noth_karelia"
+	texturefile = "gfx/interface/goals/fin/fin_fortify_noth_karelia.dds"			
 	}
 	#ala#
 	SpriteType = {
 	name = "GFX_goal_ala_born_on_the_loney_island"
-	texturefile = "gfx/interface/goals/ala_born_on_the_loney_island.dds"			
+	texturefile = "gfx/interface/goals/ala/ala_born_on_the_loney_island.dds"			
 	}
 
 
