@@ -7,5 +7,5 @@ tags={
 	"National Focuses"
 }
 name="Nordics_Reworked"
-supported_version="1.11.8"
-remote_file_id="2735953869"
+supported_version="1.11.9"
+remote_file_id="2784826361"
