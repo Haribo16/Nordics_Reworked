@@ -113,6 +113,16 @@ spriteTypes = {
 	name = "GFX_goal_fin_fortify_noth_karelia"
 	texturefile = "gfx/interface/goals/fin/fin_fortify_noth_karelia.dds"			
 	}
+	#fin_airforce#
+	SpriteType = {
+	name = "GFX_goal_fin_airforce"
+	texturefile = "gfx/interface/goals/fin/fin_airforce.dds"			
+	}
+	#fin_build_anti_air#
+	SpriteType = {
+	name = "GFX_goal_fin_build_anti_air"
+	texturefile = "gfx/interface/goals/fin/fin_build_anti_air.dds"			
+	}
 	#ala#
 	SpriteType = {
 	name = "GFX_goal_ala_born_on_the_loney_island"

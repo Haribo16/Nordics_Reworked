@@ -1,21 +1,18 @@
 ﻿l_english:
  l_english:
- #industy_begin#
+ #industy#
  promote_further_industrialization:0 "Promote Futher Industrialization"
  promote_further_industrialization_desc:0 "We must industrialize to protect our Country"
- encourage_the_timber_industry:0 "Encourage the Timber Industry"
- encourage_the_timber_industry_desc:0 "We must expand the Timber industry"
  #Civilian Industry#
- focus_on_civs_2:0 "Lemminkainen Tehtaat"
+ focus_on_civs:0 "Lemminkainen Tehtaat"
+ focus_on_civs_desc:0 ""
+ focus_on_civs_2:0 "Expand the Lemminkainen Tehtaat"
  focus_on_civs_2_desc:0 ""
- focus_on_civs_3:0 "Expand the Lemminkainen Tehtaat"
- focus_on_civs_3_desc:0 ""
  #Military Industry#
  focus_on_mils_2:0 "Expand the Arms Factory in Hame"
  focus_on_mils_2_desc:0 ""
- focus_on_mils_3:0 "Building the Arms of The Nation"
- focus_on_mils_3_desc:0 ""
-
+ focus_on_mils:0 "Building the Arms of The Nation"
+ focus_on_mils_desc:0 ""
  #Infrastructure#
  improve_infrastructure:0 "Improve Infrastructure 1"
  improve_infrastructure_desc:0 ""
@@ -28,8 +25,8 @@
  research_boost_civ_desc:0 ""
  research_slot_extra:0 "Extra Research Slot"
  research_slot_extra_desc:0 ""
- finland_industrialized:0 "Expand our Paper Exports"
- finland_industrialized_desc:0 ""
+ fin_expand_paper_export:0 "Expand our Paper Exports"
+ fin_expand_paper_export_desc:0 ""
  #Military#
  fin_military:0 "The Finnish Military"
  fin_military_desc:0 ""
@@ -39,8 +36,8 @@
  fin_modernize_equipment_desc:0 ""
  fin_lotta_svard_recuitable_pop:0 "Lotta Svård"
  fin_lotta_svard_recuitable_pop_desc:0 ""
- fin_defence_against_sov:0 "Invent Molotov Cocktail"
- fin_defence_against_sov_desc:0 ""
+ fin_defence_against_sov:0 "Increase the molotov cocktail Production"
+ fin_defence_against_sov_desc:0 "§RPERKELE!"
  #modbile warfare#
  fin_focus_on_tanks:0 "Focus on Tanks"
  fin_focus_on_tanks_desc:0 ""
@@ -97,4 +94,17 @@
  fin_improve_the_mannerheim_line_desc:0 ""
  fin_fortify_noth_karelia:0 "Fortify Noth Karelia"
  fin_fortify_noth_karelia_Desc:0 ""
+ #fin_airforce#
+ fin_airforce:0 "Finnish Airforce"
+ fin_airforce_desc:0 ""
+ fin_focus_on_bombers:0 "Improve our Bombers"
+ fin_focus_on_bombers_desc:0 ""
+ fin_build_anti_air:0 "Build Anti-Air"
+ fin_build_anti_air_desc:0 ""
+ fin_focus_on_fighters:0 "Research Better Fighters"
+ fin_focus_on_fighters_desc:0 ""
+ fin_fighters_research_boost:0 "Make our Planes Reliable"
+ fin_fighters_research_boost_desc:0 ""
+ fin_focus_on_cas:0 "Focus on Close Air Support"
+ fin_focus_on_cas_desc:0 ""
  

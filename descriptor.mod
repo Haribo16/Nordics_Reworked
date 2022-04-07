@@ -1,15 +1,10 @@
-version="0.1"
-picture={
-	"thumbnail.png"
-	"thumbnail.png"
-}
+version="0.0.1"
+picture="thumbnail.png"
 tags={
-	"Alternative History"
-	"Events"
-	"Gameplay"
+	"Balance"
+	"Map"
 	"National Focuses"
 }
-name="Nordics_Reworked"
-supported_version="1.11.9"
-remote_file_id="2784860544"
-
+name="Nordic Reworked DEV Version"
+supported_version="1.11.*"
+remote_file_id="2785016775"

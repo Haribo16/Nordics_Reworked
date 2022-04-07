@@ -147,12 +147,6 @@ if = {
 		}
 	}
 }
-if = {
-set_autonomy = {
-		target = ICE
-		autonomous_state = autonomy_integrated_puppet
-	}
-}
 
 
 set_politics = {
