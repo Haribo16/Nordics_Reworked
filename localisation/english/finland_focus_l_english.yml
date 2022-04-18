@@ -107,4 +107,17 @@
  fin_fighters_research_boost_desc:0 ""
  fin_focus_on_cas:0 "Focus on Close Air Support"
  fin_focus_on_cas_desc:0 ""
+ #fin_navy#
+ fin_navy:0 "Finish Navy"
+ fin_navy_desc:0 ""
+ fin_expand_the_baltic_fleet:0 "Expand the Baltic Fleet"
+ fin_expand_the_baltic_fleet_desc:0 ""
+ fin_modernize_convoys:0 "Modernise our Convoys"
+ fin_modernize_convoys_desc:0 ""
+ fin_modernize_navy_doctrtine:0 "Modernise our Navy Doctrine"
+ fin_modernize_navy_doctrtine_desc:0 ""
+ fin_expand_pohjanmaa_docs:0 "Expand Pohjanmaa"
+ fin_expand_pohjanmaa_docs_desc:0 ""
+ fin_expand_turku_docs:0 "Expand Turku"
+ fin_expand_turku_docs_desc:0 ""
  

@@ -1,12 +1,12 @@
 focus_tree = {
-	id = sweden_focus
+	id = iceland_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = SWE
+			tag = NOR
 		}
 	}
 	
@@ -14,21 +14,4 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 150 y = 2500 }
 	
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 }#not tocuy thsi is the bottom of the bracets#

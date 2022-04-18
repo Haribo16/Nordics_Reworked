@@ -52,7 +52,6 @@ spriteTypes = {
 	name = "GFX_goal_fin_focus_on_special_forces"
 	texturefile = "gfx/interface/goals/fin/fin_focus_on_special_forces.dds"			
 	}
-	
 	SpriteType = {
 	name = "GFX_goal_fin_learn_from_the_prussians"
 	texturefile = "gfx/interface/goals/fin/fin_learn_from_the_prussians.dds"			
@@ -65,6 +64,7 @@ spriteTypes = {
 	name = "GFX_goal_fin_civ_war_veterans_teach_soilders"
 	texturefile = "gfx/interface/goals/fin/fin_civ_war_veterans_teach_soilders.dds"			
 	}
+	
 	#fin_focus_on_defence#
 	SpriteType = {
 	name = "GFX_goal_fin_focus_on_defence"
@@ -83,6 +83,7 @@ spriteTypes = {
 	name = "GFX_goal_fin_swe_nor_is_the_greater_threat"
 	texturefile = "gfx/interface/goals/fin/fin_swe_nor_is_the_greater_threat.dds"			
 	}
+	
 	#fin_fortify_lapi#
 	SpriteType = {
 	name = "GFX_goal_fin_fortify_lapi"
@@ -122,6 +123,36 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_fin_build_anti_air"
 	texturefile = "gfx/interface/goals/fin/fin_build_anti_air.dds"			
+	}
+	#fin_navy#
+	SpriteType = {
+	name = "GFX_goal_fin_navy"
+	texturefile = "gfx/interface/goals/fin/fin_navy.dds"			
+	}
+	#fin_expand_pohjanmaa_docs#
+	SpriteType = {
+	name = "GFX_goal_fin_expand_pohjanmaa_docs"
+	texturefile = "gfx/interface/goals/fin/fin_expand_pohjanmaa_docs.dds"			
+	}
+	#fin_expand_turku_docs#
+	SpriteType = {
+	name = "GFX_goal_fin_expand_turku_docs"
+	texturefile = "gfx/interface/goals/fin/fin_expand_turku_docs.dds"			
+	}
+	#fin_expand_the_baltic_fleet#
+	SpriteType = {
+	name = "GFX_goal_fin_expand_the_baltic_fleet"
+	texturefile = "gfx/interface/goals/fin/fin_expand_the_baltic_fleet.dds"			
+	}
+	#fin_modernize_convoys#
+	SpriteType = {
+	name = "GFX_goal_fin_modernize_convoys"
+	texturefile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"			
+	}
+	#fin_modernize_navy_doctrtine#
+	SpriteType = {
+	name = "GFX_goal_fin_modernize_navy_doctrtine"
+	texturefile = "gfx/interface/goals/fin/fin_modernize_navy_doctrtine.dds"			
 	}
 	#ala#
 	SpriteType = {

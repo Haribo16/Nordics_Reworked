@@ -42,7 +42,7 @@ add_ideas = {
 if = {
 set_autonomy = {
 		target = ALA
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_puppet
 	}
 }
 

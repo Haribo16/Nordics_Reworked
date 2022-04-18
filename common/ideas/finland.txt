@@ -181,7 +181,7 @@ ideas = {
 			}
 		}
 	FIN_increase_entrencement_speed = {
-		picture = 
+		#picture = 
 		
 		allowed = {tag = FIN}
 		available = {}

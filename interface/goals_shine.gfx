@@ -2,7 +2,7 @@ spriteTypes = {
 
 	#fin#
 	SpriteType = {
-		name = "GFX__shine" #fin_expand_paper_export#
+		name = "GFX_fin_expand_paper_export_shine" #fin_expand_paper_export#
 		texturefile = "gfx/interface/goals/fin/fin_expand_paper_export.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -34,7 +34,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX__shine" #fin_molotov#
+		name = "GFX_fin_molotov_shine" #fin_molotov#
 		texturefile = "gfx/interface/goals/fin/fin_inv_molotov_coktail.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -66,7 +66,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = { #fin_expand_hame#
-		name = "GFX__shine"
+		name = "GFX_fin_expand_hame_shine"
 		texturefile = "gfx/interface/goals/fin/fin_expand_hame.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -98,7 +98,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX__shine" #fin_arms_of_the_nation#
+		name = "GFX_fin_arms_of_the_nation_shine" #fin_arms_of_the_nation#
 		texturefile = "gfx/interface/goals/fin/fin_arms_of_the_nation.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -129,7 +129,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_focus_on_tanks#
+		name = "GFX_fin_focus_on_tanks_shine" #fin_focus_on_tanks#
 		texturefile = "gfx/interface/goals/fin/fin_focus_on_tanks.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -161,7 +161,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX__shine" #fin_modernize_doctrine_mobile_warfare#
+		name = "GFX_fin_modernize_doctrine_mobile_warfare_shine" #fin_modernize_doctrine_mobile_warfare#
 		texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_mobile_warfare.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -192,7 +192,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_focus_on_mass_assault#
+		name = "GFX_fin_focus_on_mass_assault_shine" #fin_focus_on_mass_assault#
 		texturefile = "gfx/interface/goals/fin/fin_focus_on_mass_assault.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -223,7 +223,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_increase_conscription#
+		name = "GFX_fin_increase_conscription_shine" #fin_increase_conscription#
 		texturefile = "gfx/interface/goals/fin/fin_increase_conscription.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -254,7 +254,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_modernize_doctrine_mass_assault#
+		name = "GFX_fin_modernize_doctrine_mass_assault_shine" #fin_modernize_doctrine_mass_assault#
 		texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_mass_assault.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -285,7 +285,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_increase_gun_production#
+		name = "GFX_fin_increase_gun_production_shine" #fin_increase_gun_production#
 		texturefile = "gfx/interface/goals/fin/fin_increase_gun_production.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -316,7 +316,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_focus_on_special_forces#
+		name = "GFX_fin_focus_on_special_forces_shine" #fin_focus_on_special_forces#
 		texturefile = "gfx/interface/goals/fin/fin_focus_on_special_forces.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -347,7 +347,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_learn_from_the_prussians#
+		name = "GFX_fin_learn_from_the_prussians_shine" #fin_learn_from_the_prussians#
 		texturefile = "gfx/interface/goals/fin/fin_learn_from_the_prussians.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -378,7 +378,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_modernize_doctrine_superior_firepower#
+		name = "GFX_fin_modernize_doctrine_superior_firepower_shine" #fin_modernize_doctrine_superior_firepower#
 		texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_superior_firepower.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -409,7 +409,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_civ_war_veterans_teach_soilders#
+		name = "GFX_fin_civ_war_veterans_teach_soilders_shine" #fin_civ_war_veterans_teach_soilders#
 		texturefile = "gfx/interface/goals/fin/fin_civ_war_veterans_teach_soilders.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -440,7 +440,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_focus_on_defence#
+		name = "GFX_fin_focus_on_defence_shine" #fin_focus_on_defence#
 		texturefile = "gfx/interface/goals/fin/fin_focus_on_defence.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -471,7 +471,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_modernize_doctrine_grand_battleplan#
+		name = "GFX_fin_modernize_doctrine_grand_battleplan_shine" #fin_modernize_doctrine_grand_battleplan#
 		texturefile = "gfx/interface/goals/fin/fin_modernize_doctrine_grand_battleplan.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -503,7 +503,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX__shine" #fin_increase_entrencement_speed#
+		name = "GFX_fin_increase_entrencement_speed_shine" #fin_increase_entrencement_speed#
 		texturefile = "gfx/interface/goals/fin/fin_increase_entrencement_speed.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -534,7 +534,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_swe_nor_is_the_greater_threat#
+		name = "GFX_fin_swe_nor_is_the_greater_threat_shine" #fin_swe_nor_is_the_greater_threat#
 		texturefile = "gfx/interface/goals/fin/fin_swe_nor_is_the_greater_threat.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -566,7 +566,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX__shine" #fin_fortify_lapi#
+		name = "GFX_fin_fortify_lapi_shine" #fin_fortify_lapi#
 		texturefile = "gfx/interface/goals/fin/fin_fortify_lapi.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -597,7 +597,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_fortify_lapi_2#
+		name = "GFX_fin_fortify_lapi_2_shine" #fin_fortify_lapi_2#
 		texturefile = "gfx/interface/goals/fin/fin_fortify_lapi_2.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -628,7 +628,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_sov_is_the_greater_threat#
+		name = "GFX_fin_sov_is_the_greater_threat_shine" #fin_sov_is_the_greater_threat#
 		texturefile = "gfx/interface/goals/fin/fin_sov_is_the_greater_threat.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -659,7 +659,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_fortify_salla#
+		name = "GFX_fin_fortify_salla_shine" #fin_fortify_salla#
 		texturefile = "gfx/interface/goals/fin/fin_fortify_salla.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -690,7 +690,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_improve_the_mannerheim_line#
+		name = "GFX_fin_improve_the_mannerheim_line_shine" #fin_improve_the_mannerheim_line#
 		texturefile = "gfx/interface/goals/fin/fin_improve_the_mannerheim_line.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -721,7 +721,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX__shine" #fin_fortify_noth_karelia#
+		name = "GFX_fin_fortify_noth_karelia_shine" #fin_fortify_noth_karelia#
 		texturefile = "gfx/interface/goals/fin/fin_fortify_noth_karelia.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -753,7 +753,7 @@ spriteTypes = {
 	}
 	#fin_airforce#
 	SpriteType = {
-		name = "GFX__shine" #fin_build_anti_air#
+		name = "GFX_fin_build_anti_air_shine" #fin_build_anti_air#
 		texturefile = "gfx/interface/goals/fin/fin_build_anti_air.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -784,7 +784,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-        name = "GFX__shine"
+        name = "GFX_fin_airforce_shine" #fin_airforce#
         texturefile = "gfx/interface/goals/fin/fin_airforce.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -814,10 +814,195 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
+	SpriteType = {
+        name = "GFX_fin_navy_shine" #fin_navy#
+        texturefile = "gfx/interface/goals/fin/fin_navy.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_navy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_navy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+        name = "GFX_fin_expand_pohjanmaa_docs_shine" #fin_expand_pohjanmaa_docs#
+        texturefile = "gfx/interface/goals/fin/fin_expand_pohjanmaa_docs.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_expand_pohjanmaa_docs.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_expand_pohjanmaa_docs.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+        name = "GFX_fin_expand_turku_docs_shine" #fin_expand_turku_docs#
+        texturefile = "gfx/interface/goals/fin/fin_expand_turku_docs.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_expand_turku_docs.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_expand_turku_docs.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+        name = "GFX_fin_expand_the_baltic_fleet_shine" #fin_expand_the_baltic_fleet#
+        texturefile = "gfx/interface/goals/fin/fin_expand_the_baltic_fleet.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_expand_the_baltic_fleet.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_expand_the_baltic_fleet.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+        name = "GFX_fin_modernize_navy_doctrtine_shine" #fin_modernize_convoys#
+        texturefile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+        name = "GFX_fin_modernize_convoys_shine" #fin_modernize_convoys#
+        texturefile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/fin/fin_modernize_convoys.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
 	#ala#
 	SpriteType = {
-		name = "GFX__shine" #ala_born_on_the_loney_island#
+		name = "GFX_ala_born_on_the_loney_island_shine" #ala_born_on_the_loney_island#
 		texturefile = "gfx/interface/goals/ala/ala_born_on_the_loney_island.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

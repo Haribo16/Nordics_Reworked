@@ -70,6 +70,12 @@ if = {
 		mtg_transport = 1
 	}
 }
+if = {
+set_autonomy = {
+		target = ICE
+		autonomous_state = autonomy_personal_union
+	}
+}
 
 
 1939.1.1 = {
